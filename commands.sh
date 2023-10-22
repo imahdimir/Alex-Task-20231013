@@ -4,8 +4,8 @@
 # pyenv activate sim
 # pip install sniper==0.0.18
 
-## cd to the directory where you want to save the simulated data
-## I didn't make the sim directory, and have removed it from the commands below, I just save to CWD ($PWD)
+# % cd to the directory where you want to save the simulated data
+# % I didn't make the sim directory, and have removed it from the commands below, I just save to CWD ($PWD)
 
 # simulate 20 generation of AM with 30K families
 simulate.py 1000 0.5 ./ --nfam 30000 --impute --n_am 20 --r_par 0.5 --save_par_gts
